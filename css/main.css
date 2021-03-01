@@ -118,7 +118,6 @@ body {
 
    /* --------- body style -------- */
 
-   /*
 .header {
     height: 100vh;
     background: url(../images/header.jpg);
@@ -157,54 +156,7 @@ body {
     background: peru;
     min-height: 300px;
 }
-.complete-list-container {
-    padding: 10px;
-    background: rgb(31, 39, 161);
-    min-height: 300px;
-}
-#completed-task-list li {
-    color: #fff;
-} */
 
-
-.header {
-    height: 100vh;
-    background: url(../images/header.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-}
-.header-container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-.main-heading {
-    font-family: 'Dancing script';
-    align-self: center;
-    font-size: 30px;
-}
-.to-do-container {
-    height: 100vh;
-    width: 100%;
-    background: #222;
-    opacity: .8;
-}
-.to-do-container h4 {
-    font-size: 25px;
-}
-.hr {
-    height: 1px;
-    width: 60px;
-    background: palegreen;
-}
-.incomplete-list-container {
-    padding: 10px;
-    background: peru;
-    min-height: 300px;
-}
 .complete-list-container {
     padding: 10px;
     background: rgb(31, 39, 161);

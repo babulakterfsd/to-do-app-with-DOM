@@ -38,44 +38,6 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-<!--<section class="header" id="header">
-  <div class="container-fluid p-0">
-    <div class="row no-gutters">
-      <div class="col-md-6 header-container">
-         <h3 class="main-heading">A Simple To-Do App</h3>
-      </div>
-      <div class="col-md-6 to-do-container">
-        <h4 class="text-center">To-Do List</h4>
-        <div class="hr mx-auto mb-5 mb-md-0"></div>
-        <form action="index.html" class="form w-75 mx-auto mt-md-5" id="form">
-          <div class="form-group">
-            <input type="text" name="task" id="task" class="form-control" placeholder="What's next?">
-          </div>
-          <input type="submit" class="btn btn-success mb-5 mb-md-0" name="submit" value="Add task">
-        </form>
-        <div class="row no-gutters mt-md-5">
-          <div class="col-lg-5 mx-auto">
-             <div class="incomplete-list-container">
-                <h5 class="text-center">Incompleted Tasks</h5>
-                <ul id="incomplete-task-list">
-                   
-                </ul>
-             </div>
-          </div>
-          <div class="col-lg-5 mx-auto">
-             <div class="complete-list-container bg-success" id="complete-list-container">
-              <h5 class="text-center">Completed Tasks</h5>
-              <ul id="completed-task-list">
-                
-              </ul>
-             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>-->
-
 <section class="header" id="header">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
@@ -95,13 +57,10 @@
           <div class="col-lg-5 mx-auto">
              <div class="incomplete-list-container">
                 <h5 class="text-center">Incompleted Tasks</h5>
-                <!-- <form action="index.html" id="incomplete-task">
-                   
-                </form> -->
                 <ul id="incomplete-task">
                   
                 </ul>
-                <button class = "btn-success ml-4 mt-2" onclick="submitCompletedTask()">Clear Completed Task</button>
+                <button class = "btn btn-success ml-5 mt-5" id="clearbtn" onclick="submitCompletedTask()">Clear Completed Task</button>
              </div>
           </div>
           <div class="col-lg-5 mx-auto">
