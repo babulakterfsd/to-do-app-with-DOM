@@ -58,3 +58,7 @@ function setCompletedTask(task){
     });
 }
 
+function clearAll() {
+    const ul = document.getElementById("completed-task-list");
+    ul.innerHTML = ``;
+}
